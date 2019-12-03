@@ -2,7 +2,7 @@ function ABC()
 {
 
     var station = document.getElementById('text1').value;
-      var url='https://api.railwayapi.com/v2/arrivals/station/'+station+'/hours/4/apikey/ 27nkbthv3y/'
+      var url='https://api.railwayapi.com/v2/arrivals/station/'+station+'/hours/4/apikey/27nkbthv3y/'
      console.log(url);
      var xhr=new XMLHttpRequest();
 
